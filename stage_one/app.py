@@ -15,10 +15,10 @@ def HNG_status():
     
     data = {
         'slack_name': slack_name,
-        'today': datetime.strftime(datetime.now(), '%A'),
+        'current_day': datetime.strftime(datetime.now(), '%A'),
         'utc_time': utc_time,
         'track': track,
-        'github_file_url': "https://githun...",
+        'github_file_url': "https://github.com/CaptainAril/HNG-backend/blob/main/stage_one/app.py",
         "github_repo_url": "https://github.com/CaptainAril/HNG-backend",
         'status_code': 200
     }
